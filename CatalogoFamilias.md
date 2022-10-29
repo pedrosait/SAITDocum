@@ -9,6 +9,14 @@ Para poder realizar estos pasos es necesario tener instalada la libreria msllib6
 
 ![Area de trabajo](areatrabajo.png)
 2. Ahora hay que teclear el siguiente comando en la terminal de VFP
+```
+	create form catfamilias as catmsl from f:\pedro\msllib60\catmsl.vcx
+```
+#### Donde 
+- catfamilias es el nombre con el que se guardara
+- catmsl es la clase base de la cual se crea el formulario
+- y por ultimo el directorio donde se encuentra guardada la clase catmsl
+
 
 ![Comando para crear forma](crearforma.png)
 3. Resultado del comando anterior
