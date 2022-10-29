@@ -4,11 +4,17 @@
 
 En FoxPro, hay una manera facil de remplazar archivos desde el archivo con el que se está trabajando, hacía la ruta a la cual se hara la prueba de dicha ventana
 
+Debemos saber en donde estamos posicionados, para identificar en que carpeta estamos, escribimos ```cd ```
+Si deseamos movernos a otro lugar, debemos seleccionar toda la ruta
+```vfp
+cd C:\\ejercicios
+```
+
 Para ello, en la ventana de comando escribimos ``` modi comm + el nombre que deseemos dar a ese archivo de comandos ```
 ```vfp
 modi comm make
 ```
-Se abrira una nueva ventana de comando con extensión .prg
+Se creara una nueva ventana de comando con extensión .prg, la cual se guardara en la ruta donde estemos posicionados actualmente
 
 En ella escribiremos varias lineas
 ``` set safety off ``` permite que Foxpro no muestre un cuadro de dialogo preguntando si deseamos sobreescribir los archivos
