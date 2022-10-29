@@ -20,6 +20,22 @@ En ella escribiremos varias lineas
 ```vfp
 set safety off
 
-copy file C:\\ejercicios\catLinea.* to C:\\sait\empresa\catLinea.*  
+copy file C:\\ejercicios\catLinea.* to C:\\sait\empresa\catLinea.*
 ```
 
+Damos ``` Ctrl + W ``` para guardar
+
+Debemos de compilar el archivo, para ello utilizamos el comando ``` compile ``` + el nombre del archivo de comandos
+```vfp
+compile make
+```
+
+Para finalizar, utilizamos el comando ``` do  + el nombre del archivo. ```
+Para aplicar el archivo de comandos.
+```vfp
+do make
+```
+
+Con esto, los archivos serán reemplazados dentro del sistema y se podrán visualizar los nuevos
+### Nota:
+Es necesario, que las ventanas que serán remplazadas estén cerradas, tanto en SAIT como en FoxPro, si no, se generara un error
