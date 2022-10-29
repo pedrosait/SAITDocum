@@ -12,7 +12,9 @@ Se abrira una nueva ventana de comando con extensión .prg
 
 En ella escribiremos varias lineas
 ``` set safety off ``` permite que Foxpro no muestre un cuadro de dialogo preguntando si deseamos sobreescribir los archivos
+
 ``` copy file ``` + la ruta del archivo con el que se esta trabajando
+
 ``` to ``` + la ruta hacía donde se pegaran los archivos
 
 ```vfp
